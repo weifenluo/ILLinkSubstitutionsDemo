@@ -1,4 +1,4 @@
-﻿public static class DbTypes
+﻿public static class DbTypesUtil
 {
     internal static bool IsDbEnabled { get; } = AppContext.TryGetSwitch("DbTypes.IsDbEnabled", out var result) ? result : false;
 
