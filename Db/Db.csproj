@@ -7,11 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="ILLink.Substitutions.xml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="ILLink.Substitutions.xml" />
+    <EmbeddedResource Include="ILLink\ILLink.Substitutions.xml" />
   </ItemGroup>
 
   <ItemGroup>
